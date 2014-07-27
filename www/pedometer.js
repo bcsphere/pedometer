@@ -14,8 +14,7 @@
 	limitations under the License.
 */
 
-document.addEventListener('deviceready',function(){
-	cordova.define("org.bcsphere.pedometer", function(require, exports, module) {
+
 		var exec = require('cordova/exec');
 		var platform = require('cordova/platform');
 	
@@ -42,5 +41,3 @@ document.addEventListener('deviceready',function(){
 	
 		};
 		module.exports = pedometer;
-	});
-});
